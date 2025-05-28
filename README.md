@@ -60,7 +60,7 @@ pip install cryptography
 
 ## Installation
 
-1. Clone the repository:
+1.Clone the repository:
 ```bash
 git clone https://github.com/shivakasula48/Advanced-Encryption-Tool.git
 ```
@@ -76,15 +76,30 @@ pip install cryptography
 
 # Usage
 
+##Encrypting a File
+
 1.Run the script:
 ```bash
 python encrypt_decrypt.py
 ```
 
 
-2.Follow the prompts to:
+2.Select the encryption option.
 
-   - Encrypt a file: Provide the file path and a password.
+3.Enter the path to the file you want to encrypt.
 
-   - Decrypt a file: Provide the encrypted file path and the same password used for encryption.
+4.Provide a password. The tool generates an encrypted file with a .enc extension.
 
+##Decrypting a File
+
+1.Run the script:
+
+```bash
+python encrypt_decrypt.py
+```
+
+2.Select the decryption option.
+
+3.Enter the path to the encrypted file.
+
+4.Provide the same password used during encryption. The tool generates a decrypted file with '_decrypted' added to its name.
