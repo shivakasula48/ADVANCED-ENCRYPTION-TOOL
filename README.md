@@ -177,6 +177,16 @@ Here are some enhancements planned for this tool:
 
 - Add functionality to encrypt/decrypt multiple files in a single session.
 
+---
+
+# OUTPUT 
+
+[Image](https://github.com/user-attachments/assets/18788817-a288-407d-847d-e2cfcfea60a3)
+
+
+
 # License
 
-This project is licensed under the MIT License. See the LICENSE file for details.
+This project is open-source and free to use by anyone for personal or educational purposes.  
+Feel free to modify, distribute, and use the code as long as proper credit is given to the original author, **Kasula Shiva**.
+
