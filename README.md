@@ -177,3 +177,6 @@ Here are some enhancements planned for this tool:
 
 - Add functionality to encrypt/decrypt multiple files in a single session.
 
+# License
+
+This project is licensed under the MIT License. See the LICENSE file for details.
