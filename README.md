@@ -61,3 +61,26 @@ pip install cryptography
 1. Clone the repository:
    ```bash
    git clone https://github.com/shivakasula48/Advanced-Encryption-Tool.git
+   ```
+2.Navigate to the project directory:
+   ```bash
+   cd Advanced-Encryption-Tool
+```
+3.Install the required libraries:
+```bash
+pip install cryptography
+```
+# Usage
+
+1.Run the script:
+```bash
+python encrypt_decrypt.py
+```
+
+
+2.Follow the prompts to:
+
+   - Encrypt a file: Provide the file path and a password.
+
+   - Decrypt a file: Provide the encrypted file path and the same password used for encryption.
+
