@@ -1,40 +1,57 @@
-# ADVANCED-ENCRYPTION-TOOL
+# Advanced Encryption Tool
 
-*COMPANY*: CODTECH IT SOLUTIONS
+## Internship Details
+- **Company**: CODTECH IT SOLUTIONS
+- **Name**: KASULA SHIVA
+- **Intern ID**: CT08DM748
+- **Domain**: Cyber Security & Ethical Hacking
+- **Duration**: 8 Weeks
+- **Mentor**: NEELA SANTOSH
 
-*NAME* : KASULA SHIVA
-
-*INTERN ID* : CT08DM748
-
-*DOMAIN* : Cyber Security & Ethical Hacking
-
-*DURATION* : 8WEEKS
-
-*MENTOR* : NEELA SANTOSH
-
-
-
+---
 
 ## Overview
-This project is a Python-based **Advanced Encryption Tool** designed to securely encrypt and decrypt files using the **AES-256 algorithm**. The tool provides a simple and user-friendly interface for secure file handling, ensuring that sensitive data remains protected.
+The **Advanced Encryption Tool** is a Python-based project developed as part of an internship with CODTECH IT SOLUTIONS in the **Cyber Security & Ethical Hacking** domain. This tool focuses on securing files by implementing the **AES-256 encryption algorithm**, one of the most secure and widely used encryption standards today.
+
+Encryption is an essential part of cybersecurity and helps protect sensitive information from unauthorized access. This project allows users to encrypt their files securely and decrypt them later using a password-based key. The tool is designed to handle text, documents, and other sensitive data efficiently.
+
+By combining simplicity and robust security, the tool caters to users with minimal technical knowledge while meeting advanced security requirements.
 
 ---
 
 ## Features
-- File encryption using **AES-256** with random IV and salt.
-- File decryption with password-based key generation.
-- Protects files from unauthorized access and ensures data confidentiality.
-- User-friendly CLI for encryption and decryption.
+This project includes the following features:
+1. **Strong Encryption**:
+   - Utilizes AES-256 (Advanced Encryption Standard) for robust file encryption.
+   - Ensures high security with a random salt and initialization vector (IV) for each encryption session.
+
+2. **Password-Based Key Derivation**:
+   - Uses a secure password-to-key mechanism (PBKDF2) to derive encryption keys.
+   - Prevents brute-force attacks by introducing random salt.
+
+3. **File Handling**:
+   - Supports the encryption of various file types, including `.txt`, `.csv`, and `.docx`.
+   - Generates encrypted files with a `.enc` extension for easy identification.
+
+4. **User-Friendly Interface**:
+   - Provides a simple command-line interface (CLI) for encrypting and decrypting files.
+   - Displays helpful prompts for user input.
+
+5. **Cross-Platform Compatibility**:
+   - Runs seamlessly on Windows, macOS, and Linux.
 
 ---
 
 ## Requirements
-- Python 3.x
-- Libraries: `cryptography`, `os`, `base64`
+To use this tool, ensure you have the following:
+- **Python**:
+  - Version: 3.6 or higher
+  - Install from [python.org](https://www.python.org/).
+- **Libraries**:
+  - `cryptography`: Provides encryption algorithms and utilities.
+  - `os`: Handles file operations.
+  - `base64`: Encodes and decodes binary data.
 
----
-
-## Installation
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/<your-username>/Advanced-Encryption-Tool.git
+Install the required library with:
+```bash
+pip install cryptography
