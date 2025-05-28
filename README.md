@@ -76,7 +76,7 @@ pip install cryptography
 
 # Usage
 
-##Encrypting a File
+## Encrypting a File
 
 1.Run the script:
 ```bash
@@ -90,7 +90,7 @@ python encrypt_decrypt.py
 
 4.Provide a password. The tool generates an encrypted file with a .enc extension.
 
-##Decrypting a File
+## Decrypting a File
 
 1.Run the script:
 
@@ -102,4 +102,23 @@ python encrypt_decrypt.py
 
 3.Enter the path to the encrypted file.
 
-4.Provide the same password used during encryption. The tool generates a decrypted file with '_decrypted' added to its name.
+4.Provide the same password used during encryption. The tool generates a decrypted file with `_decrypted` added to its name.
+
+---
+
+# Example
+## Input File
+- `example.txt`: Contains sample data for encryption.
+
+## Encryption Process
+
+1.Original file: `example.txt`
+
+2.Encrypted file: `example.txt.enc`
+
+## Decryption Process
+1.Encrypted file: `example.txt.enc`
+
+2.Decrypted file: `example_decrypted.txt`
+
+
