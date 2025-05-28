@@ -56,20 +56,24 @@ Install the required library with:
 ```bash
 pip install cryptography
 ```
+---
 
 ## Installation
+
 1. Clone the repository:
-   ```bash
-   git clone https://github.com/shivakasula48/Advanced-Encryption-Tool.git
-   ```
+```bash
+git clone https://github.com/shivakasula48/Advanced-Encryption-Tool.git
+```
 2.Navigate to the project directory:
-   ```bash
-   cd Advanced-Encryption-Tool
+```bash
+cd Advanced-Encryption-Tool
 ```
 3.Install the required libraries:
 ```bash
 pip install cryptography
 ```
+---
+
 # Usage
 
 1.Run the script:
