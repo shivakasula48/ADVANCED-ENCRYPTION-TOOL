@@ -181,7 +181,7 @@ Here are some enhancements planned for this tool:
 
 # OUTPUT 
 
-[Image](https://github.com/user-attachments/assets/18788817-a288-407d-847d-e2cfcfea60a3)
+![Image](https://github.com/user-attachments/assets/18788817-a288-407d-847d-e2cfcfea60a3)
 
 
 
